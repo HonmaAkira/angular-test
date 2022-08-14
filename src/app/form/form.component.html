@@ -1,0 +1,18 @@
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    flatpickr("#flatpickr", {});
+  </script>
+</head>
+
+<p>form works!</p>
+<div class="start">
+  <input [ngModel]="startDate" type="text" id="flatpickr1" />
+</div>
+<div class="end">
+  <input [ngModel]="endDate" type="text" id="flatpickr2" />
+</div>
